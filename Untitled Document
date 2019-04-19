@@ -1,0 +1,7 @@
+def reverse_string(str1):
+2	    if len(str1) % 4 == 0:
+3	       return ''.join(reversed(str1))
+4	    return str1
+5	
+6	print(reverse_string('abcd'))
+7	print(reverse_string('python'))
